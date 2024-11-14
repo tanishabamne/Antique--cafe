@@ -15,10 +15,10 @@
         margin-left: 60%;
         padding: 30px;
         font-size: 30px;
-        gap: 30px;
+        /* gap: 30px; */
         color: rgb(150, 94, 21); 
     }
-    #topheader nav ul li :hover{
+    #topheader nav ul :hover{
     
     color: rgb(245, 242, 238);
     }
