@@ -7,17 +7,19 @@
      /* ************************************************* header code start****************************************** */
     #topheader nav ul {
         display: flex;
-        /* justify-content: space-between; ------> use for manage logo and content in nav bar */
         text-align: center;
         list-style: none;
         position: fixed;
-        /* margin ko % mai hi dete hai */
-        margin-left: 60%;
+        margin-left: 63%;
         padding: 30px;
         font-size: 30px;
-        /* gap: 30px; */
+        gap: 5px; 
         color: rgb(150, 94, 21); 
     }
+    #topheader nav ul li{
+        gap: 20px;
+    }
+
     #topheader nav ul :hover{
     
     color: rgb(245, 242, 238);
@@ -28,33 +30,27 @@
     /* ___________________________mainsection_1 start_____________________________ */
     #mainsection_1{
     
-        background-image: url(../image/antique-cafe.jpg);
+        background-image: url(https://www.tooplate.com/templates/2126_antique_cafe/img/antique-cafe-bg-01.jpg);
         width: 100%;
         height: 800px;
     
     }
     
     #mainsection_1 .div1{
-        width: 200px;
+        width: 400px;
         height: 200px;
         border: 1px solid rgb(104, 58, 5);
         position: absolute;
         top: 200px;
-        left: 600px;
+        left: 550px;
         background-color: rgb(14, 13, 13);
         align-content: center;
         opacity: 0.8;
         border-radius: 15px;
         text-align: center;
-        font-size: large;
+        font-size: larger;
         color: antiquewhite;
-    
     }
-    #mainsection_1 .div1 h1{
-        font: size 300px;
-        font-family: 'Times New Roman', Times, serif;
-    }
-    
     
     #mainsection_1 .div2{
         background-color: rgb(14, 13, 13);
@@ -82,7 +78,7 @@
     
     
     #mainsection_2{
-        background-image: url(../image/antique-cafe-bg-02\ \(1\).jpg);
+        background-image: url(https://www.tooplate.com/templates/2126_antique_cafe/img/antique-cafe-bg-02.jpg);
         width: 100%;
         height: 800px;
     }
@@ -105,14 +101,28 @@
         opacity: 0.8;
     }
     
-    #mainsection_2 .menudiv  #internal_div2{
+    /* #mainsection_2 .menudiv  #internal_div2{
          
         height: 150px;
         width: 350px;
         background-color: rgb(104, 61, 6);
-        opacity: 0.8;
-    }
+        opacity: 0.8; */
     
+        #internal_div1{
+        height: 1200px;
+        width: 50%;
+        /* background-color: rgb(104, 61, 6); */
+        border:  1px solid black;
+
+    }
+
+    .nice{
+
+        background-image: url(https://www.tooplate.com/templates/2126_antique_cafe/img/antique-cafe-bg-03.jpg);
+        height: 100%;
+        width: 100%;
+
+    }
     
     
     
